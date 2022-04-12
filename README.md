@@ -1,15 +1,14 @@
 # emailService
 
 SMTP microservice. 
-This is a python study project composed by two microservices : emailService , TemplateService.
+This is part of a python study project composed by two microservices : emailService , TemplateService.
 
-This emailService sends an email to a receiver with message created from template provided.
-Templates are stored in a PostgreSQL database and are managed by an other microservice.
-(TODO)
+EmailService sends an email to a receiver with message created from template provided.
+Templates will be stored in a PostgreSQL database and will be managed by another microservice (TODO)
 
 ## Used technologies
 
-* Python3
+* Python 3.10
 * pip3
 * FastApi
 * smtplib
