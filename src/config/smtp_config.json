@@ -1,6 +1,0 @@
-{
-  "host": "smtp.gmail.com",
-  "port": 587,
-  "userName": "testEmailsProjectTest@gmail.com",
-  "password": "TestingEmails1234"
-}
