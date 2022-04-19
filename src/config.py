@@ -16,3 +16,4 @@ def _load_json(file_path: str) -> dict:
 
 
 SMTP_CONFIG = _load_json("config/smtp_config.json")
+TEMPLATE_URI = "http://localhost:5000"
