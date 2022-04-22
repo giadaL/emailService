@@ -6,7 +6,7 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from config import UseDotNotation, SMTP_CONFIG
+from src.config import UseDotNotation, SMTP_CONFIG
 from src.template_client import get_template_file, get_template_info, get_template_attachments
 
 
