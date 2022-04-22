@@ -4,7 +4,9 @@ SMTP microservice.
 This is part of a python study project composed by two microservices : emailService , TemplateService.
 
 EmailService sends an email to a receiver with message created from template provided.
-Templates will be stored in a PostgreSQL database and will be managed by another microservice (TODO)
+Templates will be stored in a PostgreSQL database and will be managed by another microservice (https://github.com/giadaL/EmailTemplateService).
+
+There will be a UI made with react (WIP) (https://github.com/giadaL/email-sender-fe)
 
 ## Used technologies
 
